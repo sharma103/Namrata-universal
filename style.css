@@ -1,0 +1,638 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+main {
+  color: #33336f;
+  background-color: rgb(198, 234, 246);
+}
+header {
+  position: relative;
+  background-color: rgb(198, 234, 246);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(108, 198, 227);
+}
+.one {
+  background-color: rgb(198, 234, 246);
+}
+.one img {
+  background-color: rgb(108, 198, 227);
+  height: 40px;
+  transition: all 1s ease-in-out;
+}
+.one img:hover {
+  height: 50px;
+}
+
+.two ul {
+  justify-content: center;
+  display: flex;
+  background-color: rgb(198, 234, 246);
+  border-radius: 5px;
+}
+.two ul li {
+  list-style: none;
+  margin: 15px;
+}
+.two ul li a {
+  text-decoration: none;
+  color: #33336f;
+}
+.two ul li a:hover {
+  color: rgb(28, 13, 73);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.myvidio {
+}
+.about {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  transition: all 1s ease-in-out;
+  font-size: large;
+  padding: 50px;
+}
+.about h2 {
+  background-color: rgb(108, 198, 227);
+  border-radius: 5px;
+  padding: 10px;
+}
+.about p {
+  background-color: rgb(176, 222, 239);
+  border-radius: 5px;
+  padding: 10px;
+}
+.about:hover {
+  transform: rotatex(180deg);
+}
+
+.img1 img {
+  width: 95%;
+  margin: 30px;
+  transition: all 1s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+.para1 {
+  border-radius: 5px;
+  text-align: start;
+  background-color: rgb(108, 198, 227);
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 50px;
+  position: absolute;
+  top: 1350px;
+  left: 40px;
+  transition: all 1s ease-in-out;
+  color: rgb(28, 13, 73);
+  margin-bottom: 500px;
+}
+.para1 p,
+b {
+  background-color: rgb(108, 198, 227);
+}
+.para1 h2 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: rgb(108, 198, 227);
+}
+.para1:hover {
+  transform: rotatey(30deg);
+}
+.container {
+  margin-top: 50px;
+  display: flex;
+  text-align: center;
+  margin-right: 150px;
+  margin-left: 150px;
+  transition: all 1s ease-in-out;
+}
+.oneimg img {
+  width: 550px;
+  margin-right: 27px;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+}
+.oneimg :hover {
+  transform: rotatex(40deg);
+}
+.twoimg img {
+  width: 550px;
+  margin-left: 15px;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+}
+.twoimg :hover {
+  transform: rotatex(40deg);
+}
+.container-one {
+  display: flex;
+  margin-top: 50px;
+  text-align: center;
+  margin-right: 110px;
+  margin-left: 190px;
+  margin-bottom: 100px;
+  transition: all 1s ease-in-out;
+}
+.container-one h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.paraone {
+  width: 400px;
+  height: 170px;
+  margin-right: 52px;
+  border-radius: 5px;
+  background-color: rgb(108, 198, 227);
+  padding: 50px;
+  font-size: medium;
+  text-align: justify;
+  position: absolute;
+  top: 1900px;
+  left: 173px;
+  transition: all 1s ease-in-out;
+}
+
+.paraone p {
+  background-color: rgb(108, 198, 227);
+}
+.paraone :hover {
+  transform: rotatey(30deg);
+}
+.paratwo {
+  width: 400px;
+  height: 170px;
+  margin-left: 30px;
+  border-radius: 5px;
+  background-color: rgb(108, 198, 227);
+  padding: 50px;
+  font-size: medium;
+  text-align: start;
+  position: absolute;
+  top: 1900px;
+  right: 95px;
+  transition: all 1s ease-in-out;
+}
+.paratwo :hover {
+  transform: rotatey(30deg);
+}
+
+.paratwo p {
+  background-color: rgb(108, 198, 227);
+}
+.paratwo h2,
+b {
+  background-color: rgb(108, 198, 227);
+}
+
+footer {
+  background: #19293e;
+  color: white;
+}
+.alfa {
+  display: flex;
+}
+.a {
+  margin: 30px;
+  width: 200px;
+}
+.a ul li {
+  list-style: none;
+}
+.a ul li a {
+  text-decoration: none;
+  color: white;
+}
+.a ul li a:hover {
+  color: rgb(176, 222, 239);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.b {
+  margin: 30px;
+  width: 200px;
+}
+.b ul li {
+  list-style: none;
+}
+.b ul li a {
+  text-decoration: none;
+  color: white;
+}
+.b ul li a:hover {
+  color: rgb(176, 222, 239);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.c {
+  background: #19293e;
+  margin: 30px;
+  width: 250px;
+}
+.c b,
+p {
+  background: #19293e;
+}
+.d {
+  margin: 30px;
+  width: 250px;
+}
+.d a {
+  text-decoration: none;
+  color: white;
+}
+.d b {
+  background: #19293e;
+}
+
+.email :hover {
+  color: rgb(176, 222, 239);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.mail :hover {
+  color: rgb(176, 222, 239);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+.new {
+  display: flex;
+}
+
+.newtwo {
+  margin-left: 10px;
+}
+
+.namrata {
+  margin-bottom: 5px;
+  margin-top: -5px;
+}
+.namrata :hover {
+  color: rgb(176, 222, 239);
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.mainbu {
+  display: flex;
+}
+.bu {
+  margin: 4px;
+}
+
+.you {
+  transition: all 1s ease-in-out;
+}
+.you :active {
+  color: rgb(84, 11, 15);
+  font-size: 0.5rem;
+}
+.pay {
+  background: rgb(108, 198, 227);
+  color: #33336f;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px;
+}
+.pay:active {
+  background: rgb(24, 176, 226);
+  font-size: 0.5rem;
+}
+.pay b {
+  color: #33336f;
+  background: rgb(105, 199, 233);
+}
+.payme {
+  display: flex;
+  margin: 4px;
+}
+.paynow {
+  color: #000;
+  /* padding: 2px; */
+  padding-left: 4px;
+}
+
+.socialmedia {
+  display: flex;
+  background: #19293e;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.link {
+  border: 1px solid rgb(241, 238, 235);
+  border-radius: 50px;
+  margin: 15px;
+}
+
+.link:active {
+  background: blue;
+  font-size: 0.5rem;
+}
+
+.link img {
+  border-radius: 50px;
+}
+
+.tw {
+  border: 1px solid rgb(241, 238, 235);
+  border-radius: 50px;
+  margin: 15px;
+}
+.tw:active {
+  background: rgb(24, 176, 226);
+  font-size: 0.5rem;
+}
+.tw img {
+  border-radius: 50px;
+}
+
+.fb {
+  border: 1px solid rgb(241, 238, 235);
+  border-radius: 50px;
+  margin: 15px;
+}
+.fb:active {
+  background: blue;
+  font-size: 0.5rem;
+}
+
+.fb img {
+  border-radius: 50px;
+}
+
+.ig {
+  border: 1px solid rgb(241, 238, 235);
+  border-radius: 50px;
+  margin: 15px;
+}
+.ig:active {
+  background: rgb(225, 11, 118);
+  font-size: 0.5rem;
+}
+
+.ig img {
+  border-radius: 50px;
+  background: #19293e;
+}
+
+.youone {
+  border: 1px solid rgb(241, 238, 235);
+  border-radius: 50px;
+  margin: 15px;
+}
+.youone:active {
+  background: red;
+  font-size: 0.5rem;
+}
+
+.youone img {
+  border-radius: 50px;
+  background: #19293e;
+}
+
+.copy {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 50px;
+}
+
+.my {
+  margin-left: 500px;
+}
+
+#Servicescon {
+  background-color: rgb(176, 222, 239);
+}
+.serone {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 0px;
+  transition: all 1s ease-in-out;
+  font-size: large;
+  padding: 50px;
+}
+.serone h2 {
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px;
+  text-decoration: underline;
+}
+.serone p {
+  background-color: rgb(176, 222, 239);
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  padding-top: 20px;
+  font-weight: 500;
+}
+.serone:hover {
+  transform: rotatey(30deg);
+}
+
+.serimg {
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.serimg img {
+  width: 260px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 2px;
+}
+
+.serw {
+  background-color: rgb(176, 222, 239);
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+.serw p {
+  background-color: rgb(180, 213, 225);
+  width: 240px;
+  height: 200px;
+  margin: 0 20px 20px 20px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 2px;
+}
+.serw b {
+  background-color: rgb(180, 213, 225);
+  width: 250px;
+  height: 200px;
+}
+
+.serimgone {
+  background: rgb(176, 222, 239);
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.serimgone img {
+  width: 260px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 2px;
+}
+#blue {
+  background: rgb(176, 222, 239);
+  padding: 20px;
+}
+.blueimg img {
+  border-radius: 5px;
+}
+
+.our {
+  text-align: center;
+  position: absolute;
+  top: 3415px;
+  left: 315px;
+}
+
+.newimg {
+  display: flex;
+  background: white;
+  width: 60%;
+  height: 300px;
+  padding: 30px;
+  border-radius: 5px;
+
+  position: absolute;
+  top: 3493px;
+  left: 222px;
+}
+
+.newimg p {
+  background: white;
+}
+
+.ceo {
+  padding-top: 50px;
+  font-weight: 500;
+}
+
+.ceo a {
+  text-decoration: none;
+  color: rgb(120, 15, 100);
+  font-weight: 500;
+}
+
+.photo {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.photo img {
+  margin: 25px;
+  width: 280px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.phone {
+  background-color: rgb(180, 213, 225);
+  margin: 20px;
+  width: 280px;
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 10px;
+  transition: all 1s ease-in-out;
+}
+
+.phone img:hover {
+  transform: rotatey(10deg);
+}
+
+.rev {
+  background-color: rgb(176, 222, 239);
+  padding-bottom: 100px;
+}
+
+.imgrev {
+  display: flex;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.imgrev b {
+  background-color: rgb(180, 213, 225);
+}
+
+.imgrev img {
+  width: 250px;
+  height: 200px;
+}
+
+.imgra {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(180, 213, 225);
+  margin-right: 15px;
+  padding: 5px;
+  text-align: center;
+}
+.imgrb {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(180, 213, 225);
+  margin-right: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.imgrc {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(180, 213, 225);
+  margin-right: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.imgrd {
+  width: 250px;
+  height: 400px;
+  background-color: rgb(180, 213, 225);
+  margin-right: 15px;
+  text-align: center;
+  padding: 5px;
+}
+
+.part{
+  margin-left:10px ;
+  margin-right: 10px;
+  display: flex;
+}
+.pa img{ width: 200px;
+  height: 100px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
